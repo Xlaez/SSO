@@ -11,7 +11,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10; &quot;account&quot;: {&#10;   &quot;email&quot;: &quot;test2@gmail.com&quot;,&#10;   &quot;hashed_password&quot;: &quot;password&quot;,&#10;   &quot;full_name&quot;: &quot;test user two&quot;,&#10;   &quot;gender&quot;: &quot;male&quot;,&#10;   &quot;biography&quot;: &quot;A new short bio&quot;&#10; }&#10;}" />
+                    <option name="raw" value="{&#10; &quot;account&quot;: {&#10;   &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;   &quot;hashed_password&quot;: &quot;password&quot;,&#10;   &quot;full_name&quot;: &quot;test user two&quot;,&#10;   &quot;gender&quot;: &quot;male&quot;,&#10;   &quot;biography&quot;: &quot;A new short bio&quot;&#10; }&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -41,12 +41,30 @@
                       <option name="key" value="Content-Type" />
                       <option name="value" value="application/json" />
                     </headerState>
+                    <headerState>
+                      <option name="disabled" value="true" />
+                      <option name="key" value="Authorization" />
+                    </headerState>
                   </list>
                 </option>
                 <option name="id" value="4494a22d-adb4-4636-912c-269542791811" />
                 <option name="method" value="POST" />
                 <option name="name" value="sign_in" />
                 <option name="url" value="{{url}}/sign_in" />
+              </requestState>
+              <requestState>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI2OTUzMzgsImlhdCI6MTcxMDI3NjEzOCwiaXNzIjoiYXBpIiwianRpIjoiMGUzMWEwYzctNWJmZC00NGY2LWFhNmEtMzBjYjgwZjJhMjhkIiwibmJmIjoxNzEwMjc2MTM3LCJzdWIiOiIyMTM5ZjY0ZC1mOTA1LTQ1NDktOGY4Ny03ZTI0MDE1MzU3ZWIiLCJ0eXAiOiJhY2Nlc3MifQ.QfrLibyavkhcJ9lE3WZI3Wpp-uRM1EO8NW81EskF9rNX0h4eyNU4LHNbCOxPqfW1t57sdFmk7HtqOH4WuHiYoA" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="ad63dca1-9ddd-4167-a378-59cfd81fae61" />
+                <option name="method" value="GET" />
+                <option name="name" value="get user by id" />
+                <option name="url" value="{{url}}/by_id/2139f64d-f905-4549-8f87-7e24015357eb" />
               </requestState>
             </list>
           </option>
@@ -55,6 +73,11 @@
             <synchronizationPropertiesState>
               <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
             </synchronizationPropertiesState>
+          </option>
+          <option name="variables">
+            <variablesState>
+              <option name="json" value="{default: {&#10;    &quot;url&quot;: &quot;http://localhost:8080/api/accounts&quot;&#10;  }}" />
+            </variablesState>
           </option>
         </folderState>
       </list>

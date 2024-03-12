@@ -14,10 +14,19 @@ defmodule ApiWeb.Router do
     plug :accepts, ["json"]
   end
 
+  pipeline :auth do
+    plug ApiWeb.Auth.Pipeline
+  end
+
   scope "/api", ApiWeb do
     pipe_through :api
     get "/", DefaultController, :index
     post "/accounts/create", AccountController, :create
     post "/accounts/sign_in", AccountController, :sign_in
+  end
+
+  scope "/api", ApiWeb do
+    pipe_through [:api, :auth]
+    get "/accounts/by_id/:id", AccountController, :show
   end
 end

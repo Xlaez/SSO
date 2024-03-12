@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="00336449-a49b-4873-8937-f33fe5a9b1bf" />
+          <option name="name" value="accounts" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10; &quot;account&quot;: {&#10;   &quot;email&quot;: &quot;test2@gmail.com&quot;,&#10;   &quot;hashed_password&quot;: &quot;password&quot;,&#10;   &quot;full_name&quot;: &quot;test user two&quot;,&#10;   &quot;gender&quot;: &quot;male&quot;,&#10;   &quot;biography&quot;: &quot;A new short bio&quot;&#10; }&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="1308adfe-5bc6-45f6-9828-afb662dad1d7" />
+                <option name="method" value="POST" />
+                <option name="name" value="create account" />
+                <option name="url" value="{{url}}/create" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="3024eb7e-e301-4b06-869e-36045b80f5c2" />
+  </component>
+</project>

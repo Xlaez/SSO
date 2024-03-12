@@ -1,18 +1,21 @@
-# Api
+# Dolph SSO
 
-To start your Phoenix server:
+An SSO server for single-sign-on built with Elixir's Phoenix library, Guardian and JWT.
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Requirements
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+* Postgres SQL
+* Elixir
+* Phoenix
+* Any IDE of choice
+* Docker (not necessary but recommended)
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Start
 
-## Learn more
+- Update the details of the postgres database in the `dev.exs` file found in the `/config` directory.
+- Start you postgres database (docker recommended!)
+- **RUN** `mix deps.get` to install dependencies
+- **RUN** `mix ecto.create` then `mix ecto.migrate` to run migrations
+- **RUN** `mix phx.server` to start your Phoenix server on port **8080**
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+``Im tired !! (wamted to add an emoji but forgot too)``

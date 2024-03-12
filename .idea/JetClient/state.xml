@@ -28,6 +28,26 @@
                 <option name="name" value="create account" />
                 <option name="url" value="{{url}}/create" />
               </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="4494a22d-adb4-4636-912c-269542791811" />
+                <option name="method" value="POST" />
+                <option name="name" value="sign_in" />
+                <option name="url" value="{{url}}/sign_in" />
+              </requestState>
             </list>
           </option>
           <option name="sortWeight" value="1000000" />

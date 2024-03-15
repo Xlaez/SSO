@@ -10,12 +10,19 @@ defmodule ApiWeb.Router do
     conn |> json(%{errors: message}) |> halt()
   end
 
+  defp handle_errors(conn, %{reason: reason}) do
+    IO.inspect(reason, label: "Unhandled error reason")
+    conn |> json(%{errors: "Internal Server Error"}) |> halt()
+  end
+
   pipeline :api do
     plug :accepts, ["json"]
+    plug :fetch_session
   end
 
   pipeline :auth do
     plug ApiWeb.Auth.Pipeline
+    plug ApiWeb.Auth.SetAccount
   end
 
   scope "/api", ApiWeb do
@@ -28,5 +35,6 @@ defmodule ApiWeb.Router do
   scope "/api", ApiWeb do
     pipe_through [:api, :auth]
     get "/accounts/by_id/:id", AccountController, :show
+    post "/accounts/update", AccountController, :update
   end
 end

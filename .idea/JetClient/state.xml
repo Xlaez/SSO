@@ -57,14 +57,38 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI2OTUzMzgsImlhdCI6MTcxMDI3NjEzOCwiaXNzIjoiYXBpIiwianRpIjoiMGUzMWEwYzctNWJmZC00NGY2LWFhNmEtMzBjYjgwZjJhMjhkIiwibmJmIjoxNzEwMjc2MTM3LCJzdWIiOiIyMTM5ZjY0ZC1mOTA1LTQ1NDktOGY4Ny03ZTI0MDE1MzU3ZWIiLCJ0eXAiOiJhY2Nlc3MifQ.QfrLibyavkhcJ9lE3WZI3Wpp-uRM1EO8NW81EskF9rNX0h4eyNU4LHNbCOxPqfW1t57sdFmk7HtqOH4WuHiYoA" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTMzMzcsImlhdCI6MTcxMDI5NDEzNywiaXNzIjoiYXBpIiwianRpIjoiOGU3NDAzYzktOGI2MC00MWI2LWJjZTMtZTkwOTdkOGY4YWIxIiwibmJmIjoxNzEwMjk0MTM2LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.fKDKBnqEpwWcaZ5HyqnS1YKAj4YGnVxV-BEdnjLeU5PmMP3LmLenjOge-cuhEgT9HC_kzUr26n_oxGwGelttWA" />
                     </headerState>
                   </list>
                 </option>
                 <option name="id" value="ad63dca1-9ddd-4167-a378-59cfd81fae61" />
                 <option name="method" value="GET" />
                 <option name="name" value="get user by id" />
-                <option name="url" value="{{url}}/by_id/2139f64d-f905-4549-8f87-7e24015357eb" />
+                <option name="url" value="{{url}}/by_id/76334a3b-e681-49e0-aac4-9507528f8ea5" />
+              </requestState>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;76334a3b-e681-49e0-aac4-9507528f8ea5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI5MjQ5NDYsImlhdCI6MTcxMDUwNTc0NiwiaXNzIjoiYXBpIiwianRpIjoiM2M4YzUwYTAtMjFiNy00YzQ4LWE2OTUtMjhmMjczMWFlMjU5IiwibmJmIjoxNzEwNTA1NzQ1LCJzdWIiOiI3NjMzNGEzYi1lNjgxLTQ5ZTAtYWFjNC05NTA3NTI4ZjhlYTUiLCJ0eXAiOiJhY2Nlc3MifQ.ui52UsMydReAhxLLl3aoXf7tW7gp6qJPutlZVTM5vTlskqN-BvcfMvqVyiJjbClHwDsFZAGrGA1a9LwRvlRxcQ" />
+                    </headerState>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
+                <option name="method" value="POST" />
+                <option name="name" value="update" />
+                <option name="url" value="{{url}}/update" />
               </requestState>
             </list>
           </option>

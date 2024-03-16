@@ -35,6 +35,8 @@ defmodule ApiWeb.Router do
   scope "/api", ApiWeb do
     pipe_through [:api, :auth]
     get "/accounts/by_id/:id", AccountController, :show
+    get "/accounts/sign_out", AccountController, :sign_out
+    get "/accounts/refresh_session", AccountController, :refresh_session
     post "/accounts/update", AccountController, :update
   end
 end

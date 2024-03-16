@@ -31,7 +31,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password123&quot;&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -57,19 +57,19 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTMzMzcsImlhdCI6MTcxMDI5NDEzNywiaXNzIjoiYXBpIiwianRpIjoiOGU3NDAzYzktOGI2MC00MWI2LWJjZTMtZTkwOTdkOGY4YWIxIiwibmJmIjoxNzEwMjk0MTM2LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.fKDKBnqEpwWcaZ5HyqnS1YKAj4YGnVxV-BEdnjLeU5PmMP3LmLenjOge-cuhEgT9HC_kzUr26n_oxGwGelttWA" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTMwNDI1MzYsImlhdCI6MTcxMDYyMzMzNiwiaXNzIjoiYXBpIiwianRpIjoiNDk1NmU0MTMtOWZhZi00ZjA0LThlZTgtMmFlNWYzZDY3NzBjIiwibmJmIjoxNzEwNjIzMzM1LCJzdWIiOiJkMzc2ODg1ZC0xMDgzLTQwNjctOGU1Yy1lNGEzOWRkMjRjZjIiLCJ0eXAiOiJhY2Nlc3MifQ.H-wtyPN1IvMiz8j415UHOLsGFuXC6Ff-gSCSBNtROOM_qzINpcBenxWPwiByWQYfvOyvk0wDFx0xf9MKi92dBQ" />
                     </headerState>
                   </list>
                 </option>
                 <option name="id" value="ad63dca1-9ddd-4167-a378-59cfd81fae61" />
                 <option name="method" value="GET" />
                 <option name="name" value="get user by id" />
-                <option name="url" value="{{url}}/by_id/76334a3b-e681-49e0-aac4-9507528f8ea5" />
+                <option name="url" value="{{url}}/by_id/d376885d-1083-4067-8e5c-e4a39dd24cf2" />
               </requestState>
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;76334a3b-e681-49e0-aac4-9507528f8ea5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;d376885d-1083-4067-8e5c-e4a39dd24cf2&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -77,7 +77,7 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI5MjQ5NDYsImlhdCI6MTcxMDUwNTc0NiwiaXNzIjoiYXBpIiwianRpIjoiM2M4YzUwYTAtMjFiNy00YzQ4LWE2OTUtMjhmMjczMWFlMjU5IiwibmJmIjoxNzEwNTA1NzQ1LCJzdWIiOiI3NjMzNGEzYi1lNjgxLTQ5ZTAtYWFjNC05NTA3NTI4ZjhlYTUiLCJ0eXAiOiJhY2Nlc3MifQ.ui52UsMydReAhxLLl3aoXf7tW7gp6qJPutlZVTM5vTlskqN-BvcfMvqVyiJjbClHwDsFZAGrGA1a9LwRvlRxcQ" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTMwNDE5ODEsImlhdCI6MTcxMDYyMjc4MSwiaXNzIjoiYXBpIiwianRpIjoiZmFhZTlmNDAtMzNmYi00N2Q2LTk2ZDEtMTZiMzJiOTY4ZDM1IiwibmJmIjoxNzEwNjIyNzgwLCJzdWIiOiJkMzc2ODg1ZC0xMDgzLTQwNjctOGU1Yy1lNGEzOWRkMjRjZjIiLCJ0eXAiOiJhY2Nlc3MifQ.F5YPKjcLFnS9E3PqhyI14xMLBLo9JIzAosNuPhflvBB11gjNtS3BAgyQNhPssM86a6f2sfxUx2hp4IkGYdXJIQ" />
                     </headerState>
                     <headerState>
                       <option name="key" value="Content-Type" />
@@ -89,6 +89,34 @@
                 <option name="method" value="POST" />
                 <option name="name" value="update" />
                 <option name="url" value="{{url}}/update" />
+              </requestState>
+              <requestState>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTMwNDI1MzYsImlhdCI6MTcxMDYyMzMzNiwiaXNzIjoiYXBpIiwianRpIjoiNDk1NmU0MTMtOWZhZi00ZjA0LThlZTgtMmFlNWYzZDY3NzBjIiwibmJmIjoxNzEwNjIzMzM1LCJzdWIiOiJkMzc2ODg1ZC0xMDgzLTQwNjctOGU1Yy1lNGEzOWRkMjRjZjIiLCJ0eXAiOiJhY2Nlc3MifQ.H-wtyPN1IvMiz8j415UHOLsGFuXC6Ff-gSCSBNtROOM_qzINpcBenxWPwiByWQYfvOyvk0wDFx0xf9MKi92dBQ" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="682fcb6a-a8ac-4ae5-9c60-23db3ae16b79" />
+                <option name="method" value="GET" />
+                <option name="name" value="signout" />
+                <option name="url" value="{{url}}/sign_out" />
+              </requestState>
+              <requestState>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTMwNDQwOTAsImlhdCI6MTcxMDYyNDg5MCwiaXNzIjoiYXBpIiwianRpIjoiYmMwNzAzMTUtNzA2Yi00YzlmLWJjYjItZWJiOTA0MjU4MTA5IiwibmJmIjoxNzEwNjI0ODg5LCJzdWIiOiJkMzc2ODg1ZC0xMDgzLTQwNjctOGU1Yy1lNGEzOWRkMjRjZjIiLCJ0eXAiOiJhY2Nlc3MifQ.JS9Y19quZgE7SqDwZJPFTlLugJS0YpMMYhiX4jsrgewxlLIp7XPYucBIXPWpQxGuBWI_Q-uYpeSgketGEzRvew" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="ca28a66f-489a-45c8-8ce8-f9af11bcf9d6" />
+                <option name="method" value="GET" />
+                <option name="name" value="refresh session" />
+                <option name="url" value="{{url}}/refresh_session" />
               </requestState>
             </list>
           </option>

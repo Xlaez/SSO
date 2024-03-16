@@ -44,6 +44,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/elixir_make" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/guardian" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/guardian_db" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="phoenix" level="project" />
@@ -110,5 +111,6 @@
     <orderEntry type="library" name="thoas" level="project" />
     <orderEntry type="library" name="earmark" level="project" />
     <orderEntry type="library" name="certifi" level="project" />
+    <orderEntry type="library" name="guardian_db" level="project" />
   </component>
 </module>

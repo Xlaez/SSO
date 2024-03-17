@@ -11,7 +11,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10; &quot;account&quot;: {&#10;   &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;   &quot;hashed_password&quot;: &quot;password&quot;,&#10;   &quot;full_name&quot;: &quot;test user two&quot;,&#10;   &quot;gender&quot;: &quot;male&quot;,&#10;   &quot;biography&quot;: &quot;A new short bio&quot;&#10; }&#10;}" />
+                    <option name="raw" value="{&#10; &quot;account&quot;: {&#10;   &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;   &quot;hashed_password&quot;: &quot;password&quot;,&#10;   &quot;first_name&quot;: &quot;Caleb&quot;,&#10;   &quot;gender&quot;: &quot;male&quot;,&#10;   &quot;bio&quot;: &quot;A new short bio&quot;,&#10;   &quot;last_name&quot;: &quot;Jesse&quot;,&#10;   &quot;other_name&quot;: &quot;Onneka&quot;,&#10;   &quot;country&quot;: &quot;Nigeria&quot;,&#10;   &quot;city&quot;: &quot;Abuja&quot;,&#10;   &quot;address&quot;: &quot;random address&quot;,&#10;   &quot;phone_number&quot;: &quot;0801910775&quot;&#10; }&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -57,28 +57,28 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODAyNTcsImlhdCI6MTcxMDY3ODE1NywiaXNzIjoiYXBpIiwianRpIjoiM2ZjYzQ0MmUtMzQzMi00M2E2LTlmMTItYjgxMzhmZmI0YmVmIiwibmJmIjoxNzEwNjc4MTU2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.sJQw9KpX55E5CznN-c7DfgJg5enV9aJPgOYo_rRgWNz9IQBreCj3FkAFVPiMmzdlIsg-voMJhGIm1tbguKyb4A" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA3MDE1NzksImlhdCI6MTcxMDY5OTQ3OSwiaXNzIjoiYXBpIiwianRpIjoiMjY1YmY3YzYtZDdiNC00YWJhLTkyYWMtNzYyMWJkNTVhZTQ5IiwibmJmIjoxNzEwNjk5NDc4LCJzdWIiOiJmMzg4Zjc4Yy1jMDA5LTQyOGYtODJmMy02YzU3MThhNmI3NzQiLCJ0eXAiOiJhY2Nlc3MifQ.DU8ll7jcgeLPxwp_UDYYuPcaDmvMHvf7zSIFrarhO7c3bAAtSwfYwUAkDwsTPFlHHxHxQqw-thdOv2dsp6T4DQ" />
                     </headerState>
                   </list>
                 </option>
                 <option name="id" value="ad63dca1-9ddd-4167-a378-59cfd81fae61" />
                 <option name="method" value="GET" />
                 <option name="name" value="get user by id" />
-                <option name="url" value="{{url}}/by_id/f612c433-7914-4189-9579-6663969824e5" />
+                <option name="url" value="{{url}}/by_id/f388f78c-c009-428f-82f3-6c5718a6b774" />
               </requestState>
               <requestState>
                 <option name="headers">
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA3MDE1NzksImlhdCI6MTcxMDY5OTQ3OSwiaXNzIjoiYXBpIiwianRpIjoiMjY1YmY3YzYtZDdiNC00YWJhLTkyYWMtNzYyMWJkNTVhZTQ5IiwibmJmIjoxNzEwNjk5NDc4LCJzdWIiOiJmMzg4Zjc4Yy1jMDA5LTQyOGYtODJmMy02YzU3MThhNmI3NzQiLCJ0eXAiOiJhY2Nlc3MifQ.DU8ll7jcgeLPxwp_UDYYuPcaDmvMHvf7zSIFrarhO7c3bAAtSwfYwUAkDwsTPFlHHxHxQqw-thdOv2dsp6T4DQ" />
                     </headerState>
                   </list>
                 </option>
                 <option name="id" value="247b5afe-868b-46e7-a602-2c272dee47d1" />
                 <option name="method" value="GET" />
                 <option name="name" value="get current session" />
-                <option name="url" value="{{url}}/by_id/f612c433-7914-4189-9579-6663969824e5" />
+                <option name="url" value="{{url}}/current_session" />
               </requestState>
               <requestState>
                 <option name="body">
@@ -154,7 +154,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;user&quot;: {&#10;    &quot;id&quot;: &quot;f25bfee1-81df-4cd1-8136-2037646fa667&quot;,&#10;    &quot;biography&quot;: &quot;A seasoned software developer with 3+ years of experience&quot;,&#10;    &quot;full_name&quot;: &quot;Jesse Lingard&quot;,&#10;    &quot;gender&quot;: &quot;male&quot;&#10;  }&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;user&quot;: {&#10;    &quot;id&quot;: &quot;cc62e924-5f09-43f7-b0bc-d2548ece51f1&quot;,&#10;    &quot;bio&quot;: &quot;A seasoned software developer with 3+ years of experience&quot;&#10;  }&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -162,7 +162,7 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2Nzk1OTcsImlhdCI6MTcxMDY3NzQ5NywiaXNzIjoiYXBpIiwianRpIjoiYzJhM2Q2ZWYtMmE1OC00NDEwLTliODgtODdhMzUzMjhlNGUwIiwibmJmIjoxNzEwNjc3NDk2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.3l2Kd-bday6-dJZ5B8FfFWrpf9ib_MyGjRSnShECLj_uxod-Mk0OHuzZDf7Ajq3JpL03LKkibY6Rb2q3hl54RA" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA3MDE1NzksImlhdCI6MTcxMDY5OTQ3OSwiaXNzIjoiYXBpIiwianRpIjoiMjY1YmY3YzYtZDdiNC00YWJhLTkyYWMtNzYyMWJkNTVhZTQ5IiwibmJmIjoxNzEwNjk5NDc4LCJzdWIiOiJmMzg4Zjc4Yy1jMDA5LTQyOGYtODJmMy02YzU3MThhNmI3NzQiLCJ0eXAiOiJhY2Nlc3MifQ.DU8ll7jcgeLPxwp_UDYYuPcaDmvMHvf7zSIFrarhO7c3bAAtSwfYwUAkDwsTPFlHHxHxQqw-thdOv2dsp6T4DQ" />
                     </headerState>
                     <headerState>
                       <option name="key" value="Content-Type" />

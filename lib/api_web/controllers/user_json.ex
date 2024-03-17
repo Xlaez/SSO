@@ -18,20 +18,32 @@ defmodule ApiWeb.UserJSON do
   def show_user(user) do
     %{
       id: user.id,
-      full_name: user.full_name,
+      first_name: user.first_name,
       gender: user.gender,
-      biography: user.biography,
-      inserted_at: user.inserted_at,
-      updated_at: user.updated_at,
+      bio: user.bio,
+      last_name: user.last_name,
+      other_name: user.other_name,
+      img_url: user.img_url,
+      country: user.country,
+      city: user.city,
+      address: user.address,
+      phone_number: user.phone_number,
     }
   end
 
   def data(%User{} = user) do
     %{
       id: user.id,
-      full_name: user.full_name,
+      first_name: user.first_name,
       gender: user.gender,
-      biography: user.biography
+      bio: user.bio,
+      last_name: user.last_name,
+      other_name: user.other_name,
+      img_url: user.img_url,
+      country: user.country,
+      city: user.city,
+      address: user.address,
+      phone_number: user.phone_number,
     }
   end
 end

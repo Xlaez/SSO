@@ -3,7 +3,7 @@ defmodule ApiWeb.Auth.ErrorResponse.Unauthorized do
 end
 
 defmodule ApiWeb.Auth.ErrorResponse.Forbidden do
-  defexception [message: "You don not have access to this resource", plug_status: 403]
+  defexception [message: "Access To Resource Restricted", plug_status: 403]
 end
 
 defmodule ApiWeb.Auth.ErrorResponse.NotFound do

@@ -28,6 +28,7 @@ defmodule ApiWeb.Router do
   scope "/api", ApiWeb do
     pipe_through :api
     get "/", DefaultController, :index
+    get "/health_checker", DefaultController, :health_checker
     post "/accounts/create", AccountController, :create
     post "/accounts/sign_in", AccountController, :sign_in
   end

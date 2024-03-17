@@ -31,7 +31,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password123&quot;&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -57,7 +57,7 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2NjgwNTksImlhdCI6MTcxMDY2NTk1OSwiaXNzIjoiYXBpIiwianRpIjoiMzc3OWVjNjctNDI5My00N2VhLWFiYzgtOGVhYWNmNGY0NjkwIiwibmJmIjoxNzEwNjY1OTU4LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.olIzW5g1dt9oEMTGQ-0sFoSvDKLT-dbYc8UziCT98nkJBeg_4JY-DMDDHJf-mQKwoT0vFt1rk8n52uE6t8MX9g" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2NzQzMDcsImlhdCI6MTcxMDY3MjIwNywiaXNzIjoiYXBpIiwianRpIjoiMDFiMTNlODktYzkyNi00Y2YyLWJkN2UtNDk4ZjE4NzM3YTE5IiwibmJmIjoxNzEwNjcyMjA2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.2Ug8Y5cktwtldqzABkPP4AUHfl7gDPSeqWO1OXhL6LoedSWdW7aMJygc_k4JY-XH96EVQie5rSd1DpCVvyxpyQ" />
                     </headerState>
                   </list>
                 </option>

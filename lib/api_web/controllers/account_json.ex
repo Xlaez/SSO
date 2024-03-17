@@ -1,5 +1,6 @@
 defmodule ApiWeb.AccountJSON do
   alias Api.Accounts.Account
+  alias ApiWeb.UserJSON
 
   @doc """
   Renders a list of accounts.
@@ -30,4 +31,14 @@ defmodule ApiWeb.AccountJSON do
       hashed_password: account.hashed_password
     }
   end
+
+  def full_account(%{account: account}) do
+    %{
+      id: account.id,
+      email: account.email,
+      user: UserJSON.show_user(account.user)
+    }
+  end
 end
+
+#

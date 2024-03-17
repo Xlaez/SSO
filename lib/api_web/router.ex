@@ -38,5 +38,7 @@ defmodule ApiWeb.Router do
     get "/accounts/sign_out", AccountController, :sign_out
     get "/accounts/refresh_session", AccountController, :refresh_session
     post "/accounts/update", AccountController, :update
+    put "/users/update", UserController, :update
   end
+
 end

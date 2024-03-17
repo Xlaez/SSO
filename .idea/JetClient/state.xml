@@ -57,7 +57,7 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2NzQzMDcsImlhdCI6MTcxMDY3MjIwNywiaXNzIjoiYXBpIiwianRpIjoiMDFiMTNlODktYzkyNi00Y2YyLWJkN2UtNDk4ZjE4NzM3YTE5IiwibmJmIjoxNzEwNjcyMjA2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.2Ug8Y5cktwtldqzABkPP4AUHfl7gDPSeqWO1OXhL6LoedSWdW7aMJygc_k4JY-XH96EVQie5rSd1DpCVvyxpyQ" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODAyNTcsImlhdCI6MTcxMDY3ODE1NywiaXNzIjoiYXBpIiwianRpIjoiM2ZjYzQ0MmUtMzQzMi00M2E2LTlmMTItYjgxMzhmZmI0YmVmIiwibmJmIjoxNzEwNjc4MTU2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.sJQw9KpX55E5CznN-c7DfgJg5enV9aJPgOYo_rRgWNz9IQBreCj3FkAFVPiMmzdlIsg-voMJhGIm1tbguKyb4A" />
                     </headerState>
                   </list>
                 </option>
@@ -69,7 +69,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;d376885d-1083-4067-8e5c-e4a39dd24cf2&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -77,7 +77,7 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTMwNDE5ODEsImlhdCI6MTcxMDYyMjc4MSwiaXNzIjoiYXBpIiwianRpIjoiZmFhZTlmNDAtMzNmYi00N2Q2LTk2ZDEtMTZiMzJiOTY4ZDM1IiwibmJmIjoxNzEwNjIyNzgwLCJzdWIiOiJkMzc2ODg1ZC0xMDgzLTQwNjctOGU1Yy1lNGEzOWRkMjRjZjIiLCJ0eXAiOiJhY2Nlc3MifQ.F5YPKjcLFnS9E3PqhyI14xMLBLo9JIzAosNuPhflvBB11gjNtS3BAgyQNhPssM86a6f2sfxUx2hp4IkGYdXJIQ" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODAyNTcsImlhdCI6MTcxMDY3ODE1NywiaXNzIjoiYXBpIiwianRpIjoiM2ZjYzQ0MmUtMzQzMi00M2E2LTlmMTItYjgxMzhmZmI0YmVmIiwibmJmIjoxNzEwNjc4MTU2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.sJQw9KpX55E5CznN-c7DfgJg5enV9aJPgOYo_rRgWNz9IQBreCj3FkAFVPiMmzdlIsg-voMJhGIm1tbguKyb4A" />
                     </headerState>
                     <headerState>
                       <option name="key" value="Content-Type" />
@@ -87,7 +87,7 @@
                 </option>
                 <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
                 <option name="method" value="POST" />
-                <option name="name" value="update" />
+                <option name="name" value="update account" />
                 <option name="url" value="{{url}}/update" />
               </requestState>
               <requestState>
@@ -130,6 +130,44 @@
             <variablesState>
               <option name="json" value="{default: {&#10;    &quot;url&quot;: &quot;http://localhost:8080/api/accounts&quot;&#10;  }}" />
             </variablesState>
+          </option>
+        </folderState>
+        <folderState>
+          <option name="id" value="e676bc9c-059b-4ffa-8ea9-ed7b79aad127" />
+          <option name="name" value="users" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;user&quot;: {&#10;    &quot;id&quot;: &quot;f25bfee1-81df-4cd1-8136-2037646fa667&quot;,&#10;    &quot;biography&quot;: &quot;A seasoned software developer with 3+ years of experience&quot;,&#10;    &quot;full_name&quot;: &quot;Jesse Lingard&quot;,&#10;    &quot;gender&quot;: &quot;male&quot;&#10;  }&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2Nzk1OTcsImlhdCI6MTcxMDY3NzQ5NywiaXNzIjoiYXBpIiwianRpIjoiYzJhM2Q2ZWYtMmE1OC00NDEwLTliODgtODdhMzUzMjhlNGUwIiwibmJmIjoxNzEwNjc3NDk2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.3l2Kd-bday6-dJZ5B8FfFWrpf9ib_MyGjRSnShECLj_uxod-Mk0OHuzZDf7Ajq3JpL03LKkibY6Rb2q3hl54RA" />
+                    </headerState>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="b183e071-f7b4-4642-996c-4a9b9f908a39" />
+                <option name="method" value="PUT" />
+                <option name="name" value="update user" />
+                <option name="url" value="{{url}}/update" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="2000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
           </option>
         </folderState>
       </list>

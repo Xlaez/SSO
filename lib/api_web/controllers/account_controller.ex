@@ -4,20 +4,11 @@ defmodule ApiWeb.AccountController do
   alias Api.{Accounts, Accounts.Account, Users, Users.User}
   alias ApiWeb.{Auth.Guardian, Auth.ErrorResponse, AccountJSON}
 
-  plug :is_account_authorized when action in [:update, :delete]
+  import ApiWeb.Auth.AuthorizePlug
+
+  plug :is_authorized when action in [:update, :delete]
 
   action_fallback ApiWeb.FallbackController
-
-  defp is_account_authorized(conn, _opts) do
-    %{params: %{"account" => params}} = conn
-    account = Accounts.get_account!(params["id"])
-
-    if conn.assigns.account.id == account.id do
-      conn
-    else
-      raise ErrorResponse.Forbidden
-    end
-  end
 
   def index(conn, _params) do
     accounts = Accounts.list_accounts()

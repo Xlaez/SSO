@@ -41,7 +41,7 @@ defmodule ApiWeb.Auth.Guardian do
     end
   end
 
-  defp validate_password(pure_string, hashed_password) do
+  def validate_password(pure_string, hashed_password) do
     Bcrypt.verify_pass(pure_string, hashed_password)
   end
 

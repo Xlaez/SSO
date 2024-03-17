@@ -365,82 +365,6 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1710278017911" />
-          <option name="id" value="fc53e3ee-91a6-41d3-8a34-82e8e90e2838" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Authorization" />
-                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI2OTUzMzgsImlhdCI6MTcxMDI3NjEzOCwiaXNzIjoiYXBpIiwianRpIjoiMGUzMWEwYzctNWJmZC00NGY2LWFhNmEtMzBjYjgwZjJhMjhkIiwibmJmIjoxNzEwMjc2MTM3LCJzdWIiOiIyMTM5ZjY0ZC1mOTA1LTQ1NDktOGY4Ny03ZTI0MDE1MzU3ZWIiLCJ0eXAiOiJhY2Nlc3MifQ.QfrLibyavkhcJ9lE3WZI3Wpp-uRM1EO8NW81EskF9rNX0h4eyNU4LHNbCOxPqfW1t57sdFmk7HtqOH4WuHiYoA" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="4494a22d-adb4-4636-912c-269542791811" />
-              <option name="method" value="POST" />
-              <option name="name" value="sign_in" />
-              <option name="url" value="{{url}}/sign_in" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6IjIxMzlmNjRkLWY5MDUtNDU0OS04Zjg3LTdlMjQwMTUzNTdlYiIsInRva2VuIjoiZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhkV1FpT2lKaGNHa2lMQ0psZUhBaU9qRTNNVEkyT1RjeU1UY3NJbWxoZENJNk1UY3hNREkzT0RBeE55d2lhWE56SWpvaVlYQnBJaXdpYW5ScElqb2lPVFl5T0RZM056VXROMlpoTWkwME9XRmxMV0UxTW1RdE9HUmxNbUV6WVRsbE5UazJJaXdpYm1KbUlqb3hOekV3TWpjNE1ERTJMQ0p6ZFdJaU9pSXlNVE01WmpZMFpDMW1PVEExTFRRMU5Ea3RPR1k0TnkwM1pUSTBNREUxTXpVM1pXSWlMQ0owZVhBaU9pSmhZMk5sYzNNaWZRLllaai1jSkpJcGJtOGh2RndtQ0l4ZmFXTjZ4ZVpuYVFxOW5ib1pQR1diSl9OUXdBNlBaS2Y2MDRsckFPQ1JEdGplWkpUUFozVzFENWRuMy1Bb1pmUTBBIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSJ9" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;2139f64d-f905-4549-8f87-7e24015357eb&quot;,&#10;  &quot;token&quot; : &quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI2OTcyMTcsImlhdCI6MTcxMDI3ODAxNywiaXNzIjoiYXBpIiwianRpIjoiOTYyODY3NzUtN2ZhMi00OWFlLWE1MmQtOGRlMmEzYTllNTk2IiwibmJmIjoxNzEwMjc4MDE2LCJzdWIiOiIyMTM5ZjY0ZC1mOTA1LTQ1NDktOGY4Ny03ZTI0MDE1MzU3ZWIiLCJ0eXAiOiJhY2Nlc3MifQ.YZj-cJJIpbm8hvFwmCIxfaWN6xeZnaQq9nboZPGWbJ_NQwA6PZKf604lrAOCRDtjeZJTPZ3W1D5dn3-AoZfQ0A&quot;,&#10;  &quot;email&quot; : &quot;test@gmail.com&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 12 Mar 2024 21:13:37 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="378" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="vary" />
-                    <option name="value" value="accept-encoding" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-encoding" />
-                    <option name="value" value="gzip" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="cache-control" />
-                    <option name="value" value="max-age=0, private, must-revalidate" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="x-request-id" />
-                    <option name="value" value="F7wgy6k4nY26xjwAAADB" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="fc53e3ee-91a6-41d3-8a34-82e8e90e2838" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;2139f64d-f905-4549-8f87-7e24015357eb&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI2OTcyMTcsImlhdCI6MTcxMDI3ODAxNywiaXNzIjoiYXBpIiwianRpIjoiOTYyODY3NzUtN2ZhMi00OWFlLWE1MmQtOGRlMmEzYTllNTk2IiwibmJmIjoxNzEwMjc4MDE2LCJzdWIiOiIyMTM5ZjY0ZC1mOTA1LTQ1NDktOGY4Ny03ZTI0MDE1MzU3ZWIiLCJ0eXAiOiJhY2Nlc3MifQ.YZj-cJJIpbm8hvFwmCIxfaWN6xeZnaQq9nboZPGWbJ_NQwA6PZKf604lrAOCRDtjeZJTPZ3W1D5dn3-AoZfQ0A&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;}" />
-              <option name="size" value="378" />
-              <option name="time" value="384" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1710294137723" />
           <option name="id" value="6a94de6a-f192-472c-a621-4e47af97bd10" />
           <option name="request">
@@ -509,310 +433,6 @@
               <option name="rawBodyString" value="{&quot;id&quot;:&quot;a6142b0c-6d12-4e90-a761-f7fa578603c7&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTMzMzcsImlhdCI6MTcxMDI5NDEzNywiaXNzIjoiYXBpIiwianRpIjoiOGU3NDAzYzktOGI2MC00MWI2LWJjZTMtZTkwOTdkOGY4YWIxIiwibmJmIjoxNzEwMjk0MTM2LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.fKDKBnqEpwWcaZ5HyqnS1YKAj4YGnVxV-BEdnjLeU5PmMP3LmLenjOge-cuhEgT9HC_kzUr26n_oxGwGelttWA&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;}" />
               <option name="size" value="380" />
               <option name="time" value="678" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1710295569297" />
-          <option name="id" value="276180e7-3786-4108-a998-5c76b6fab4df" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                  <headerState>
-                    <option name="disabled" value="true" />
-                    <option name="key" value="Authorization" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="4494a22d-adb4-4636-912c-269542791811" />
-              <option name="method" value="POST" />
-              <option name="name" value="sign_in" />
-              <option name="url" value="{{url}}/sign_in" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJpZCI6ImE2MTQyYjBjLTZkMTItNGU5MC1hNzYxLWY3ZmE1Nzg2MDNjNyIsInRva2VuIjoiZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhkV1FpT2lKaGNHa2lMQ0psZUhBaU9qRTNNVEkzTVRRM05qa3NJbWxoZENJNk1UY3hNREk1TlRVMk9Td2lhWE56SWpvaVlYQnBJaXdpYW5ScElqb2lZakE0TkRCak9EVXRNbU5qTnkwME1ETmxMV0ZpWldNdFl6QTNabVpoWWpRM01XTm1JaXdpYm1KbUlqb3hOekV3TWprMU5UWTRMQ0p6ZFdJaU9pSmhOakUwTW1Jd1l5MDJaREV5TFRSbE9UQXRZVGMyTVMxbU4yWmhOVGM0TmpBell6Y2lMQ0owZVhBaU9pSmhZMk5sYzNNaWZRLnluNnZGVG0wYldDeG9aQkRjSlV6S2pKMFB4b1dkX0RBUVJoRXNORzVkN054Y0lJNGloeXJGVjlnWGdCUjQxclowUEFiQnBuenlmNkxScXROcGRHaEtnIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSJ9" />
-              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;a6142b0c-6d12-4e90-a761-f7fa578603c7&quot;,&#10;  &quot;token&quot; : &quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTQ3NjksImlhdCI6MTcxMDI5NTU2OSwiaXNzIjoiYXBpIiwianRpIjoiYjA4NDBjODUtMmNjNy00MDNlLWFiZWMtYzA3ZmZhYjQ3MWNmIiwibmJmIjoxNzEwMjk1NTY4LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.yn6vFTm0bWCxoZBDcJUzKjJ0PxoWd_DAQRhEsNG5d7NxcII4ihyrFV9gXgBR41rZ0PAbBpnzyf6LRqtNpdGhKg&quot;,&#10;  &quot;email&quot; : &quot;test@gmail.com&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Wed, 13 Mar 2024 02:06:08 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="381" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="vary" />
-                    <option name="value" value="accept-encoding" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-encoding" />
-                    <option name="value" value="gzip" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="cache-control" />
-                    <option name="value" value="max-age=0, private, must-revalidate" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="x-request-id" />
-                    <option name="value" value="F7wwwifI8XqZttoAAACj" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="276180e7-3786-4108-a998-5c76b6fab4df" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;id&quot;:&quot;a6142b0c-6d12-4e90-a761-f7fa578603c7&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTQ3NjksImlhdCI6MTcxMDI5NTU2OSwiaXNzIjoiYXBpIiwianRpIjoiYjA4NDBjODUtMmNjNy00MDNlLWFiZWMtYzA3ZmZhYjQ3MWNmIiwibmJmIjoxNzEwMjk1NTY4LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.yn6vFTm0bWCxoZBDcJUzKjJ0PxoWd_DAQRhEsNG5d7NxcII4ihyrFV9gXgBR41rZ0PAbBpnzyf6LRqtNpdGhKg&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;}" />
-              <option name="size" value="381" />
-              <option name="time" value="386" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1710295910628" />
-          <option name="id" value="60e164c7-c43a-4d2e-921c-41d07eca6b0c" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;a6142b0c-6d12-4e90-a761-f7fa578603c7&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Authorization" />
-                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTQ3NjksImlhdCI6MTcxMDI5NTU2OSwiaXNzIjoiYXBpIiwianRpIjoiYjA4NDBjODUtMmNjNy00MDNlLWFiZWMtYzA3ZmZhYjQ3MWNmIiwibmJmIjoxNzEwMjk1NTY4LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.yn6vFTm0bWCxoZBDcJUzKjJ0PxoWd_DAQRhEsNG5d7NxcII4ihyrFV9gXgBR41rZ0PAbBpnzyf6LRqtNpdGhKg" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
-              <option name="method" value="POST" />
-              <option name="name" value="update" />
-              <option name="url" value="{{url}}/update" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOiJZb3UgZG9uIG5vdCBoYXZlIGFjY2VzcyB0byB0aGlzIHJlc291cmNlIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;errors&quot; : &quot;You don not have access to this resource&quot;&#10;}" />
-              <option name="code" value="403" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Wed, 13 Mar 2024 02:11:50 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="72" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="vary" />
-                    <option name="value" value="accept-encoding" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-encoding" />
-                    <option name="value" value="gzip" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="cache-control" />
-                    <option name="value" value="max-age=0, private, must-revalidate" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="x-request-id" />
-                    <option name="value" value="F7wxEaqoVsNldpsAAANi" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="60e164c7-c43a-4d2e-921c-41d07eca6b0c" />
-              <option name="message" value="Forbidden" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;errors&quot;:&quot;You don not have access to this resource&quot;}" />
-              <option name="size" value="72" />
-              <option name="time" value="332" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1710295972168" />
-          <option name="id" value="ab6dce95-f55d-42bc-a828-b3d8533fcfdb" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;a6142b0c-6d12-4e90-a761-f7fa578603c7&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Authorization" />
-                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTQ3NjksImlhdCI6MTcxMDI5NTU2OSwiaXNzIjoiYXBpIiwianRpIjoiYjA4NDBjODUtMmNjNy00MDNlLWFiZWMtYzA3ZmZhYjQ3MWNmIiwibmJmIjoxNzEwMjk1NTY4LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.yn6vFTm0bWCxoZBDcJUzKjJ0PxoWd_DAQRhEsNG5d7NxcII4ihyrFV9gXgBR41rZ0PAbBpnzyf6LRqtNpdGhKg" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
-              <option name="method" value="POST" />
-              <option name="name" value="update" />
-              <option name="url" value="{{url}}/update" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOiJZb3UgZG9uIG5vdCBoYXZlIGFjY2VzcyB0byB0aGlzIHJlc291cmNlIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;errors&quot; : &quot;You don not have access to this resource&quot;&#10;}" />
-              <option name="code" value="403" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Wed, 13 Mar 2024 02:12:51 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="72" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="vary" />
-                    <option name="value" value="accept-encoding" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-encoding" />
-                    <option name="value" value="gzip" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="cache-control" />
-                    <option name="value" value="max-age=0, private, must-revalidate" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="x-request-id" />
-                    <option name="value" value="F7wxH_8iBZ9ldpsAAAUh" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="ab6dce95-f55d-42bc-a828-b3d8533fcfdb" />
-              <option name="message" value="Forbidden" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;errors&quot;:&quot;You don not have access to this resource&quot;}" />
-              <option name="size" value="72" />
-              <option name="time" value="351" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1710296114162" />
-          <option name="id" value="584d4a77-2e49-41d5-9e2d-10a78d6f3dfb" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;a6142b0c-6d12-4e90-a761-f7fa578603c7&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Authorization" />
-                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTI3MTQ3NjksImlhdCI6MTcxMDI5NTU2OSwiaXNzIjoiYXBpIiwianRpIjoiYjA4NDBjODUtMmNjNy00MDNlLWFiZWMtYzA3ZmZhYjQ3MWNmIiwibmJmIjoxNzEwMjk1NTY4LCJzdWIiOiJhNjE0MmIwYy02ZDEyLTRlOTAtYTc2MS1mN2ZhNTc4NjAzYzciLCJ0eXAiOiJhY2Nlc3MifQ.yn6vFTm0bWCxoZBDcJUzKjJ0PxoWd_DAQRhEsNG5d7NxcII4ihyrFV9gXgBR41rZ0PAbBpnzyf6LRqtNpdGhKg" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
-              <option name="method" value="POST" />
-              <option name="name" value="update" />
-              <option name="url" value="{{url}}/update" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOiJZb3UgZG9uIG5vdCBoYXZlIGFjY2VzcyB0byB0aGlzIHJlc291cmNlIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;errors&quot; : &quot;You don not have access to this resource&quot;&#10;}" />
-              <option name="code" value="403" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Wed, 13 Mar 2024 02:15:13 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="72" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="vary" />
-                    <option name="value" value="accept-encoding" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-encoding" />
-                    <option name="value" value="gzip" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="cache-control" />
-                    <option name="value" value="max-age=0, private, must-revalidate" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="x-request-id" />
-                    <option name="value" value="F7wxQQ7JBJtldpsAAABj" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="584d4a77-2e49-41d5-9e2d-10a78d6f3dfb" />
-              <option name="message" value="Forbidden" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;errors&quot;:&quot;You don not have access to this resource&quot;}" />
-              <option name="size" value="72" />
-              <option name="time" value="312" />
             </responseState>
           </option>
         </requestHistoryState>
@@ -6377,6 +5997,456 @@
               <option name="rawBodyString" value="{&quot;errors&quot;:&quot;You don not have access to this resource&quot;}" />
               <option name="size" value="72" />
               <option name="time" value="42" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710678235787" />
+          <option name="id" value="8becec3f-6ecb-4674-bcdb-558150f770db" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODAyNTcsImlhdCI6MTcxMDY3ODE1NywiaXNzIjoiYXBpIiwianRpIjoiM2ZjYzQ0MmUtMzQzMi00M2E2LTlmMTItYjgxMzhmZmI0YmVmIiwibmJmIjoxNzEwNjc4MTU2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.sJQw9KpX55E5CznN-c7DfgJg5enV9aJPgOYo_rRgWNz9IQBreCj3FkAFVPiMmzdlIsg-voMJhGIm1tbguKyb4A" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
+              <option name="method" value="POST" />
+              <option name="name" value="update account" />
+              <option name="url" value="{{url}}/update" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjp7ImlkIjoiZjYxMmM0MzMtNzkxNC00MTg5LTk1NzktNjY2Mzk2OTgyNGU1IiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImhhc2hlZF9wYXNzd29yZCI6IiQyYiQxMiRYcDIzdTJJZ3V2Qzk0QUJqaHFZd0F1MVhJVjYxeFZPeW1CRnBPRWNHaEQvSFg4U0suczdkbSJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : {&#10;    &quot;id&quot; : &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;email&quot; : &quot;test@gmail.com&quot;,&#10;    &quot;hashed_password&quot; : &quot;$2b$12$Xp23u2IguvC94ABjhqYwAu1XIV61xVOymBFpOEcGhD/HX8SK.s7dm&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 17 Mar 2024 12:23:54 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="167" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="accept-encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="cache-control" />
+                    <option name="value" value="max-age=0, private, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="x-request-id" />
+                    <option name="value" value="F72MyqZvDP9HBzYAAAEi" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8becec3f-6ecb-4674-bcdb-558150f770db" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:{&quot;id&quot;:&quot;f612c433-7914-4189-9579-6663969824e5&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;hashed_password&quot;:&quot;$2b$12$Xp23u2IguvC94ABjhqYwAu1XIV61xVOymBFpOEcGhD/HX8SK.s7dm&quot;}}" />
+              <option name="size" value="167" />
+              <option name="time" value="341" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710679138823" />
+          <option name="id" value="b9d94636-9cad-4e94-9373-9d826e698ca3" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="Authorization" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4494a22d-adb4-4636-912c-269542791811" />
+              <option name="method" value="POST" />
+              <option name="name" value="sign_in" />
+              <option name="url" value="{{url}}/sign_in" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOiJFbWFpbCBvciBwYXNzd29yZCBpbmNvcnJlY3QifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;errors&quot; : &quot;Email or password incorrect&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 17 Mar 2024 12:38:58 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="accept-encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="cache-control" />
+                    <option name="value" value="max-age=0, private, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="x-request-id" />
+                    <option name="value" value="F72NnOCE-ca1Qd8AAAOh" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b9d94636-9cad-4e94-9373-9d826e698ca3" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;errors&quot;:&quot;Email or password incorrect&quot;}" />
+              <option name="size" value="60" />
+              <option name="time" value="593" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710679144617" />
+          <option name="id" value="2715750c-753e-4583-828a-3066517c946d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password123&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                    <option name="key" value="Authorization" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4494a22d-adb4-4636-912c-269542791811" />
+              <option name="method" value="POST" />
+              <option name="name" value="sign_in" />
+              <option name="url" value="{{url}}/sign_in" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6ImY2MTJjNDMzLTc5MTQtNDE4OS05NTc5LTY2NjM5Njk4MjRlNSIsInRva2VuIjoiZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmhkV1FpT2lKaGNHa2lMQ0psZUhBaU9qRTNNVEEyT0RFeU5EUXNJbWxoZENJNk1UY3hNRFkzT1RFME5Dd2lhWE56SWpvaVlYQnBJaXdpYW5ScElqb2lNak5sWlRoaFl6a3RObVEzTUMwME5tRTJMV0l3TjJFdE5XWXdaakJoTnpaaVkyRTNJaXdpYm1KbUlqb3hOekV3TmpjNU1UUXpMQ0p6ZFdJaU9pSm1OakV5WXpRek15MDNPVEUwTFRReE9Ea3RPVFUzT1MwMk5qWXpPVFk1T0RJMFpUVWlMQ0owZVhBaU9pSmhZMk5sYzNNaWZRLmhjUWhhYWxSQkE1bWpJODBnd0Q2X0lnLWRjUG1OMUNTSXhSLUpoQVlUaUN5dkxwa19yXzNQN1A3LUpOWnNBVXRaVFlBQkt1SXp0bmVlNkt0N1BvdGpnIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSJ9" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;  &quot;token&quot; : &quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg&quot;,&#10;  &quot;email&quot; : &quot;test@gmail.com&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 17 Mar 2024 12:39:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="379" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="accept-encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="set-cookie" />
+                    <option name="value" value="_api_key=SFMyNTY.g3QAAAABbQAAAAphY2NvdW50X2lkbQAAACRmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTU.y8lDNL7dJOsvbUhYWUwIwjztWFJD0vSs1fzcG65ECVg; path=/; HttpOnly; SameSite=Lax" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="cache-control" />
+                    <option name="value" value="max-age=0, private, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="x-request-id" />
+                    <option name="value" value="F72NnjvdG17_TToAAATD" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2715750c-753e-4583-828a-3066517c946d" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:&quot;f612c433-7914-4189-9579-6663969824e5&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;}" />
+              <option name="size" value="379" />
+              <option name="time" value="424" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710679161060" />
+          <option name="id" value="6505b000-93dd-4a3a-b44c-8eb88b6cd6c0" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="247b5afe-868b-46e7-a602-2c272dee47d1" />
+              <option name="method" value="GET" />
+              <option name="name" value="get current session" />
+              <option name="url" value="{{url}}/by_id/f612c433-7914-4189-9579-6663969824e5" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJpZCI6ImY2MTJjNDMzLTc5MTQtNDE4OS05NTc5LTY2NjM5Njk4MjRlNSIsInVzZXIiOnsiaWQiOiJmMjViZmVlMS04MWRmLTRjZDEtODEzNi0yMDM3NjQ2ZmE2NjciLCJpbnNlcnRlZF9hdCI6IjIwMjQtMDMtMTdUMDg6NTk6MThaIiwidXBkYXRlZF9hdCI6IjIwMjQtMDMtMTdUMTI6MjI6MThaIiwiYmlvZ3JhcGh5IjoiQSBzZWFzb25lZCBzb2Z0d2FyZSBkZXZlbG9wZXIgd2l0aCAzKyB5ZWFycyBvZiBleHBlcmllbmNlIiwiZnVsbF9uYW1lIjoiSmVzc2UgTGluZ2FyZCIsImdlbmRlciI6Im1hbGUifSwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSJ9" />
+              <option name="bodyString" value="{&#10;  &quot;id&quot; : &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;  &quot;user&quot; : {&#10;    &quot;id&quot; : &quot;f25bfee1-81df-4cd1-8136-2037646fa667&quot;,&#10;    &quot;inserted_at&quot; : &quot;2024-03-17T08:59:18Z&quot;,&#10;    &quot;updated_at&quot; : &quot;2024-03-17T12:22:18Z&quot;,&#10;    &quot;biography&quot; : &quot;A seasoned software developer with 3+ years of experience&quot;,&#10;    &quot;full_name&quot; : &quot;Jesse Lingard&quot;,&#10;    &quot;gender&quot; : &quot;male&quot;&#10;  },&#10;  &quot;email&quot; : &quot;test@gmail.com&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 17 Mar 2024 12:39:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="245" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="accept-encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="cache-control" />
+                    <option name="value" value="max-age=0, private, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="x-request-id" />
+                    <option name="value" value="F72NoiMHV7__TToAAAUD" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6505b000-93dd-4a3a-b44c-8eb88b6cd6c0" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;id&quot;:&quot;f612c433-7914-4189-9579-6663969824e5&quot;,&quot;user&quot;:{&quot;id&quot;:&quot;f25bfee1-81df-4cd1-8136-2037646fa667&quot;,&quot;inserted_at&quot;:&quot;2024-03-17T08:59:18Z&quot;,&quot;updated_at&quot;:&quot;2024-03-17T12:22:18Z&quot;,&quot;biography&quot;:&quot;A seasoned software developer with 3+ years of experience&quot;,&quot;full_name&quot;:&quot;Jesse Lingard&quot;,&quot;gender&quot;:&quot;male&quot;},&quot;email&quot;:&quot;test@gmail.com&quot;}" />
+              <option name="size" value="245" />
+              <option name="time" value="97" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710679231922" />
+          <option name="id" value="727702ab-2a7d-4929-885b-09559958d998" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;current_hash&quot;: &quot;password&quot;,&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password&quot;&#10;  }&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
+              <option name="method" value="POST" />
+              <option name="name" value="update account" />
+              <option name="url" value="{{url}}/update" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJlcnJvcnMiOiJQYXNzd29yZCBJbmNvcnJlY3QifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;errors&quot; : &quot;Password Incorrect&quot;&#10;}" />
+              <option name="code" value="401" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 17 Mar 2024 12:40:31 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="51" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="accept-encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="cache-control" />
+                    <option name="value" value="max-age=0, private, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="x-request-id" />
+                    <option name="value" value="F72NspSWCZYXgCkAAAVD" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="727702ab-2a7d-4929-885b-09559958d998" />
+              <option name="message" value="Unauthorized" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;errors&quot;:&quot;Password Incorrect&quot;}" />
+              <option name="size" value="51" />
+              <option name="time" value="343" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1710679244242" />
+          <option name="id" value="78897e47-5141-4a18-8d61-41a86a5c7bef" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;current_hash&quot;: &quot;password123&quot;,&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password&quot;&#10;  }&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Authorization" />
+                    <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2b2cc8f0-2dc0-4ea6-9877-ac067c1150d0" />
+              <option name="method" value="POST" />
+              <option name="name" value="update account" />
+              <option name="url" value="{{url}}/update" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjp7ImlkIjoiZjYxMmM0MzMtNzkxNC00MTg5LTk1NzktNjY2Mzk2OTgyNGU1IiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImhhc2hlZF9wYXNzd29yZCI6IiQyYiQxMiR4QVI4U2hJTUlUVmxyU0JQSmJiN2wuVkZCTkM0TG03TlZZQkhGcVMwMDdML3o4UFlZc3JBQyJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : {&#10;    &quot;id&quot; : &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;email&quot; : &quot;test@gmail.com&quot;,&#10;    &quot;hashed_password&quot; : &quot;$2b$12$xAR8ShIMITVlrSBPJbb7l.VFBNC4Lm7NVYBHFqS007L/z8PYYsrAC&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 17 Mar 2024 12:40:43 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="168" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="accept-encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="cache-control" />
+                    <option name="value" value="max-age=0, private, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="x-request-id" />
+                    <option name="value" value="F72NtWF2d8bPgWkAAAVj" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="78897e47-5141-4a18-8d61-41a86a5c7bef" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:{&quot;id&quot;:&quot;f612c433-7914-4189-9579-6663969824e5&quot;,&quot;email&quot;:&quot;test@gmail.com&quot;,&quot;hashed_password&quot;:&quot;$2b$12$xAR8ShIMITVlrSBPJbb7l.VFBNC4Lm7NVYBHFqS007L/z8PYYsrAC&quot;}}" />
+              <option name="size" value="168" />
+              <option name="time" value="627" />
             </responseState>
           </option>
         </requestHistoryState>

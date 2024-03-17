@@ -31,7 +31,7 @@
               <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password&quot;&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;email&quot;: &quot;test@gmail.com&quot;,&#10;  &quot;password&quot;: &quot;password123&quot;&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -67,9 +67,23 @@
                 <option name="url" value="{{url}}/by_id/f612c433-7914-4189-9579-6663969824e5" />
               </requestState>
               <requestState>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Authorization" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="247b5afe-868b-46e7-a602-2c272dee47d1" />
+                <option name="method" value="GET" />
+                <option name="name" value="get current session" />
+                <option name="url" value="{{url}}/by_id/f612c433-7914-4189-9579-6663969824e5" />
+              </requestState>
+              <requestState>
                 <option name="body">
                   <bodyState>
-                    <option name="raw" value="{&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password123&quot;&#10;  }&#10;}" />
+                    <option name="raw" value="{&#10;  &quot;current_hash&quot;: &quot;password123&quot;,&#10;  &quot;account&quot;: {&#10;    &quot;id&quot;: &quot;f612c433-7914-4189-9579-6663969824e5&quot;,&#10;    &quot;hashed_password&quot;: &quot;password&quot;&#10;  }&#10;}" />
                     <option name="type" value="JSON" />
                   </bodyState>
                 </option>
@@ -77,7 +91,7 @@
                   <list>
                     <headerState>
                       <option name="key" value="Authorization" />
-                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODAyNTcsImlhdCI6MTcxMDY3ODE1NywiaXNzIjoiYXBpIiwianRpIjoiM2ZjYzQ0MmUtMzQzMi00M2E2LTlmMTItYjgxMzhmZmI0YmVmIiwibmJmIjoxNzEwNjc4MTU2LCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.sJQw9KpX55E5CznN-c7DfgJg5enV9aJPgOYo_rRgWNz9IQBreCj3FkAFVPiMmzdlIsg-voMJhGIm1tbguKyb4A" />
+                      <option name="value" value="Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhcGkiLCJleHAiOjE3MTA2ODEyNDQsImlhdCI6MTcxMDY3OTE0NCwiaXNzIjoiYXBpIiwianRpIjoiMjNlZThhYzktNmQ3MC00NmE2LWIwN2EtNWYwZjBhNzZiY2E3IiwibmJmIjoxNzEwNjc5MTQzLCJzdWIiOiJmNjEyYzQzMy03OTE0LTQxODktOTU3OS02NjYzOTY5ODI0ZTUiLCJ0eXAiOiJhY2Nlc3MifQ.hcQhaalRBA5mjI80gwD6_Ig-dcPmN1CSIxR-JhAYTiCyvLpk_r_3P7P7-JNZsAUtZTYABKuIztnee6Kt7Potjg" />
                     </headerState>
                     <headerState>
                       <option name="key" value="Content-Type" />
